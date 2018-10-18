@@ -36,7 +36,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/main.o \
-	${OBJECTDIR}/week3/Week3.o
+	${OBJECTDIR}/week3/Week3.o \
+	${OBJECTDIR}/week5/Week5.o
 
 
 # C Compiler Flags
@@ -72,6 +73,11 @@ ${OBJECTDIR}/week3/Week3.o: week3/Week3.cpp
 	${MKDIR} -p ${OBJECTDIR}/week3
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/week3/Week3.o week3/Week3.cpp
+
+${OBJECTDIR}/week5/Week5.o: week5/Week5.cpp
+	${MKDIR} -p ${OBJECTDIR}/week5
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/week5/Week5.o week5/Week5.cpp
 
 # Subprojects
 .build-subprojects:

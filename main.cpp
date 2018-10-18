@@ -12,14 +12,23 @@
  */
 
 #include "week3/Week3.h"
-
-using namespace std;
+#include "week5/Week5.h"
 
 /*
  * 
  */
 
 int main() {
-    array();
+    contoh1();
+//    contoh2();
+//    contoh3();
+//    contoh4();
+//    contoh5();
+//    contoh6();
+//    contoh7();
+//    contoh8();
+//    contoh9();
+//    contoh10();
+//    contoh11();
     return 0;
 }
