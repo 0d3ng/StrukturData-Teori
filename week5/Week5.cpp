@@ -102,3 +102,14 @@ void contoh11() {
 
     cout << b << "\n";
 }
+
+void cekPointer() {
+    string nama = "tono";
+    string *pNama;
+    cout << nama << endl;
+    pNama = &nama;
+    cout << *pNama << endl;
+    cout << &nama << endl;
+    cout << &pNama << endl;
+    cout << pNama << endl;
+}

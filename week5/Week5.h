@@ -31,6 +31,7 @@ void contoh8();
 void contoh9();
 void contoh10();
 void contoh11();
+void cekPointer();
 
 #endif /* WEEK5_H */
 

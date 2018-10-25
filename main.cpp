@@ -19,10 +19,11 @@
  */
 
 int main() {
-    contoh1();
+//    contoh1();
 //    contoh2();
+//    cekPointer();
 //    contoh3();
-//    contoh4();
+    contoh4();
 //    contoh5();
 //    contoh6();
 //    contoh7();
