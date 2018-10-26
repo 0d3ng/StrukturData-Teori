@@ -64,3 +64,9 @@ Person getPerson(Person p) {
     cin >> p.salary;
     return p;
 }
+
+void contohEnum() {
+    week today;
+    today = Wednesday;
+    cout << "Hari: " << today + 1;
+}

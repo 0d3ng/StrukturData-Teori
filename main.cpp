@@ -36,6 +36,7 @@ int main() {
 //    =================
 //    Person p;
 //    tampilStruct(getPerson(p));
-    contohStructPointer();
+//    contohStructPointer();
+    contohEnum();
     return 0;
 }

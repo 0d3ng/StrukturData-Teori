@@ -28,10 +28,13 @@ struct Person {
     int salary;
 };
 
+enum week { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
+
 void contohStruct();
 void contohStructPointer();
 void tampilStruct(Person);
 Person getPerson(Person);
+void contohEnum();
 
 #endif /* WEEK6_H */
 
