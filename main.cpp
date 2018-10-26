@@ -13,6 +13,7 @@
 
 #include "week3/Week3.h"
 #include "week5/Week5.h"
+#include "week6/Week6.h"
 
 /*
  * 
@@ -23,7 +24,7 @@ int main() {
 //    contoh2();
 //    cekPointer();
 //    contoh3();
-    contoh4();
+//    contoh4();
 //    contoh5();
 //    contoh6();
 //    contoh7();
@@ -31,5 +32,10 @@ int main() {
 //    contoh9();
 //    contoh10();
 //    contoh11();
+//    pertemuan ke-6
+//    =================
+//    Person p;
+//    tampilStruct(getPerson(p));
+    contohStructPointer();
     return 0;
 }
