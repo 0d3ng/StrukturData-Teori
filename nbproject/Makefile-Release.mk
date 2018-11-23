@@ -37,8 +37,12 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/week3/Week3.o \
+	${OBJECTDIR}/week4/Week4.o \
 	${OBJECTDIR}/week5/Week5.o \
-	${OBJECTDIR}/week6/Week6.o
+	${OBJECTDIR}/week6/Week6.o \
+	${OBJECTDIR}/week7/Week7.o \
+	${OBJECTDIR}/week8/Stack.o \
+	${OBJECTDIR}/week8/StackLinkedList.o
 
 
 # C Compiler Flags
@@ -75,6 +79,11 @@ ${OBJECTDIR}/week3/Week3.o: week3/Week3.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/week3/Week3.o week3/Week3.cpp
 
+${OBJECTDIR}/week4/Week4.o: week4/Week4.cpp
+	${MKDIR} -p ${OBJECTDIR}/week4
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/week4/Week4.o week4/Week4.cpp
+
 ${OBJECTDIR}/week5/Week5.o: week5/Week5.cpp
 	${MKDIR} -p ${OBJECTDIR}/week5
 	${RM} "$@.d"
@@ -84,6 +93,21 @@ ${OBJECTDIR}/week6/Week6.o: week6/Week6.cpp
 	${MKDIR} -p ${OBJECTDIR}/week6
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/week6/Week6.o week6/Week6.cpp
+
+${OBJECTDIR}/week7/Week7.o: week7/Week7.cpp
+	${MKDIR} -p ${OBJECTDIR}/week7
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/week7/Week7.o week7/Week7.cpp
+
+${OBJECTDIR}/week8/Stack.o: week8/Stack.cpp
+	${MKDIR} -p ${OBJECTDIR}/week8
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/week8/Stack.o week8/Stack.cpp
+
+${OBJECTDIR}/week8/StackLinkedList.o: week8/StackLinkedList.cpp
+	${MKDIR} -p ${OBJECTDIR}/week8
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/week8/StackLinkedList.o week8/StackLinkedList.cpp
 
 # Subprojects
 .build-subprojects:

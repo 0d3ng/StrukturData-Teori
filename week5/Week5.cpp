@@ -16,7 +16,7 @@
 
 using namespace std;
 
-void contoh1() {
+void cotoh1() {
     int var = 2;
     cout << &var << " memiliki nilai " << var << endl;
 }

@@ -4,9 +4,13 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>week8/Stack.h</itemPath>
+      <itemPath>week8/StackLinkedList.h</itemPath>
       <itemPath>week3/Week3.h</itemPath>
+      <itemPath>week4/Week4.h</itemPath>
       <itemPath>week5/Week5.h</itemPath>
       <itemPath>week6/Week6.h</itemPath>
+      <itemPath>week7/Week7.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -15,9 +19,13 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>week8/Stack.cpp</itemPath>
+      <itemPath>week8/StackLinkedList.cpp</itemPath>
       <itemPath>week3/Week3.cpp</itemPath>
+      <itemPath>week4/Week4.cpp</itemPath>
       <itemPath>week5/Week5.cpp</itemPath>
       <itemPath>week6/Week6.cpp</itemPath>
+      <itemPath>week7/Week7.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -45,6 +53,9 @@
           <linkerDynSerch>
             <pElem>.</pElem>
             <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
           </linkerDynSerch>
         </linkerTool>
       </compileType>
@@ -54,6 +65,10 @@
       </item>
       <item path="week3/Week3.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="week4/Week4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="week4/Week4.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="week5/Week5.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="week5/Week5.h" ex="false" tool="3" flavor2="0">
@@ -61,6 +76,18 @@
       <item path="week6/Week6.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="week6/Week6.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="week7/Week7.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="week7/Week7.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="week8/Stack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="week8/Stack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="week8/StackLinkedList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="week8/StackLinkedList.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -86,6 +113,9 @@
           <linkerDynSerch>
             <pElem>.</pElem>
             <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
           </linkerDynSerch>
         </linkerTool>
       </compileType>
@@ -95,6 +125,10 @@
       </item>
       <item path="week3/Week3.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="week4/Week4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="week4/Week4.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="week5/Week5.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="week5/Week5.h" ex="false" tool="3" flavor2="0">
@@ -102,6 +136,18 @@
       <item path="week6/Week6.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="week6/Week6.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="week7/Week7.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="week7/Week7.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="week8/Stack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="week8/Stack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="week8/StackLinkedList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="week8/StackLinkedList.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
