@@ -17,6 +17,8 @@
 #include "week7/Week7.h"
 #include "week8/Stack.h"
 #include "week8/StackLinkedList.h"
+#include "week9/Queue.h"
+#include "week10/DoubleLinkedList.h"
 
 /*
  * 
@@ -74,16 +76,37 @@ int main() {
 //    stackLinkedList.pop();
 //    stackLinkedList.display();
     
-    cout << "Sample stack STL" << endl;
-    cout << "---------------------" << endl;
-    stack<int> stack;
-    stack.push(1);
-    stack.push(2);
-    stack.push(3);
-    cout << "size: " << stack.size() << endl;
-    cout << "top: " << stack.top() << endl;
-    stack.pop();
-    cout << "size: " << stack.size() << endl;
-    cout << "top: " << stack.top() << endl;
+//    cout << "Sample stack STL" << endl;
+//    cout << "---------------------" << endl;
+//    stack<int> stack;
+//    stack.push(1);
+//    stack.push(2);
+//    stack.push(3);
+//    cout << "size: " << stack.size() << endl;
+//    cout << "top: " << stack.top() << endl;
+//    stack.pop();
+//    cout << "size: " << stack.size() << endl;
+//    cout << "top: " << stack.top() << endl;
+    
+//    pertemuan ke-9
+//    ==========================================
+//    Queue queue;
+//    queue.enQueue(1);
+//    queue.enQueue(2);
+//    queue.enQueue(3);
+//    queue.enQueue(4);
+//    queue.enQueue(5);
+//    queue.display();
+    
+//    pertemuan ke-10
+//    ============================================
+    DoubleLinkedList dll;
+//    dll.addFromHead(1);
+    dll.addFromHead(3);
+    dll.addFromHead(2);
+    dll.addFromHead(4);
+    dll.addFromHead(1);
+//    dll.printFromHead();
+    dll.printFromTail();
     return 0;
 }
