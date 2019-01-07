@@ -8,6 +8,7 @@
       <itemPath>week9/Queue.h</itemPath>
       <itemPath>week8/Stack.h</itemPath>
       <itemPath>week8/StackLinkedList.h</itemPath>
+      <itemPath>week11/Tree.h</itemPath>
       <itemPath>week3/Week3.h</itemPath>
       <itemPath>week4/Week4.h</itemPath>
       <itemPath>week5/Week5.h</itemPath>
@@ -25,6 +26,7 @@
       <itemPath>week9/Queue.cpp</itemPath>
       <itemPath>week8/Stack.cpp</itemPath>
       <itemPath>week8/StackLinkedList.cpp</itemPath>
+      <itemPath>week11/Tree.cpp</itemPath>
       <itemPath>week3/Week3.cpp</itemPath>
       <itemPath>week4/Week4.cpp</itemPath>
       <itemPath>week5/Week5.cpp</itemPath>
@@ -62,6 +64,7 @@
             <pElem>.</pElem>
             <pElem>.</pElem>
             <pElem>.</pElem>
+            <pElem>.</pElem>
           </linkerDynSerch>
         </linkerTool>
       </compileType>
@@ -70,6 +73,10 @@
       <item path="week10/DoubleLinkedList.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="week10/DoubleLinkedList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="week11/Tree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="week11/Tree.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="week3/Week3.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -132,6 +139,7 @@
             <pElem>.</pElem>
             <pElem>.</pElem>
             <pElem>.</pElem>
+            <pElem>.</pElem>
           </linkerDynSerch>
         </linkerTool>
       </compileType>
@@ -140,6 +148,10 @@
       <item path="week10/DoubleLinkedList.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="week10/DoubleLinkedList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="week11/Tree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="week11/Tree.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="week3/Week3.cpp" ex="false" tool="1" flavor2="0">
       </item>

@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/week10/DoubleLinkedList.o \
+	${OBJECTDIR}/week11/Tree.o \
 	${OBJECTDIR}/week3/Week3.o \
 	${OBJECTDIR}/week4/Week4.o \
 	${OBJECTDIR}/week5/Week5.o \
@@ -80,6 +81,11 @@ ${OBJECTDIR}/week10/DoubleLinkedList.o: week10/DoubleLinkedList.cpp
 	${MKDIR} -p ${OBJECTDIR}/week10
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/week10/DoubleLinkedList.o week10/DoubleLinkedList.cpp
+
+${OBJECTDIR}/week11/Tree.o: week11/Tree.cpp
+	${MKDIR} -p ${OBJECTDIR}/week11
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/week11/Tree.o week11/Tree.cpp
 
 ${OBJECTDIR}/week3/Week3.o: week3/Week3.cpp
 	${MKDIR} -p ${OBJECTDIR}/week3
